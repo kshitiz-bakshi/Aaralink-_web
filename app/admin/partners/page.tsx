@@ -147,7 +147,7 @@ export default function PartnersPage() {
           <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[85vh] flex flex-col">
             <div className="p-6 border-b border-gray-100 flex items-center justify-between flex-shrink-0">
               <div>
-                <h2 className="text-lg font-bold text-gray-900">{referralsPartner.full_name}'s Referrals</h2>
+                <h2 className="text-lg font-bold text-gray-900">{referralsPartner.full_name}&apos;s Referrals</h2>
                 <p className="text-sm text-gray-400 mt-0.5">{referrals.length} propert{referrals.length !== 1 ? 'ies' : 'y'} referred</p>
               </div>
               <button onClick={() => setReferralsPartner(null)} className="text-gray-400 hover:text-gray-600 text-xl">✕</button>
